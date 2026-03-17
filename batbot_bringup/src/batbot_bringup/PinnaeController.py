@@ -13,12 +13,12 @@ try:
     from spidev import SpiDev
 except ImportError:
     logging.error("pinnae.py:: no spidev found, developing on different os ")
-    from batbot7_bringup.serial.fake_spidev import fake_SpiDev as SpiDev
+    from batbot_bringup.bb_serial.fake_spidev import fake_SpiDev as SpiDev
 
 import platform
 
 # if platform.system() == "Linux" or platform.system() == "Darwin":
-from batbot7_bringup.serial.bb_serial import BB_Serial as Serial
+from batbot_bringup.bb_serial import BB_Serial as Serial
 # else:
     # from serial import Serial
 

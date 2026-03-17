@@ -63,11 +63,11 @@ import platform
 import qdarkstyle
 import pyqtgraph as pg
 
-from batbot7_bringup.sonar.bb_emitter import EchoEmitter
-from batbot7_bringup.sonar.bb_listener import EchoRecorder
-from batbot7_bringup.bb_gps import bb_gps2
-from batbot7_bringup.serial.serial_helper import get_port_from_serial_num
-from batbot7_bringup.pinnae import PinnaeController
+from batbot_bringup.sonar.bb_emitter import EchoEmitter
+from batbot_bringup.sonar.bb_listener import EchoRecorder
+from batbot_bringup.bb_gps import bb_gps2
+from batbot_bringup.bb_serial.serial_helper import get_port_from_serial_num
+from batbot_bringup.PinnaeController import PinnaeController
 
 matplotlib.set_loglevel("error")
 

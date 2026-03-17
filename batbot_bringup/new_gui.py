@@ -13,8 +13,8 @@ from PyQt6.QtWidgets import (
 
 import PyQt6.QtCore as QtCore
 
-from batbot7_bringup.gui.CollapsibleBox import CollapsibleBox
-from batbot7_bringup.gui.BBGui import BBGui
+from batbot_bringup.gui.CollapsibleBox import CollapsibleBox
+from batbot_bringup.gui.BBGui import BBGui
 
 signal.signal(signal.SIGINT, signal.SIG_DFL)
 
