@@ -10,8 +10,8 @@ from PyQt6.QtWidgets import (
 
 import PyQt6.QtCore as QtCore
 
-from batbot7_bringup.gui.CollapsibleBox import CollapsibleBox
-from batbot7_bringup.gui.MotorWidget import MotorWidget
+from batbot_bringup.gui.CollapsibleBox import CollapsibleBox
+from batbot_bringup.gui.MotorWidget import MotorWidget
 
 class BBGui(QWidget):
 
