@@ -20,12 +20,12 @@ from bb_utils import list2bytearr
 from bb_utils import bin2dec
 from bb_utils import search_comports
 
-from ser_utils import *
+from bb_serial.ser_utils import *
 from emit import build_emit_upd
 from emit import validate_emit_upd
 
-from hwdefs import ADC_SAMPLING_RATE
-from hwdefs import ADC_BYTE_RATE
+from bb_serial.hwdefs import ADC_SAMPLING_RATE
+from bb_serial.hwdefs import ADC_BYTE_RATE
 
 EMITTER_SERIAL_NO = 'DF7AE18B5351523450202020FF113537'
 #EMITTER_SERIAL_NO = '6A3E92CE5351523450202020FF0E4431'
