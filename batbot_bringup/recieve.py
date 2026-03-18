@@ -9,7 +9,7 @@ import matplotlib.colors as colors
 import numpy as np
 from scipy import signal
 
-from batbot7_bringup.sonar.bb_listener import EchoRecorder
+from batbot_bringup.sonar.bb_listener import EchoRecorder
 
 Fs = 1E6
 Ts = 1/Fs
