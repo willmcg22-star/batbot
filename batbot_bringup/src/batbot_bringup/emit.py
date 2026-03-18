@@ -6,10 +6,10 @@
 import numpy as np
 
 from bb_utils import *
-from ser_utils import *
+from bb_serial.ser_utils import *
 
-from hwdefs import DAC_MAX_INT
-from hwdefs import DAC_SAMPLING_RATE
+from bb_serial.hwdefs import DAC_MAX_INT
+from bb_serial.hwdefs import DAC_SAMPLING_RATE
 
 TEST_EMIT_UPD_MSG = [TX_MSG_FRAME, 0x01, 0x0b, 0xb8, 0x00, 0x18]
 
